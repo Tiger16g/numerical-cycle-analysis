@@ -29,11 +29,13 @@ How to Use:
 Install required dependencies:
 
 bash
+
 Copier le code
 pip install -r requirements.txt
 Run the main script:
 
 bash
+
 Copier le code
 python main_code.py
 Modify parameters in main_code.py to suit your data or specific requirements.
