@@ -6,5 +6,5 @@ scipy==1.10.1
 xgboost==1.7.5
 numba==0.57.0
 plotly==5.15.0
-dask==2023.4.0
+dask
 pytest==7.4.0
