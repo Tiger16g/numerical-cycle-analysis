@@ -21,14 +21,11 @@ jobs:
         with:
           python-version: '3.8'  # أو النسخة التي تستخدمها
 
-      - name: Upgrade pip
-        run: |
-          python -m pip install --upgrade pip
-
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt  # تأكد من وجود هذا الملف
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt --use-deprecated=legacy-resolver  # إضافة الخيار هنا
 
       - name: Run tests
         run: |
-          pytest  # تأكد من أن لديك اختبارات مكتوبة بـ pytest
+          pytest
