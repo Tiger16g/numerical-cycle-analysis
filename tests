@@ -1,0 +1,6 @@
+my_project/
+├── tests/                  # Test folder
+│   └── test_main_code.py   # Test file
+├── main_code.py            # Code file with functions
+├── requirements.txt        # Requirements file
+└── README.md               # Project README
